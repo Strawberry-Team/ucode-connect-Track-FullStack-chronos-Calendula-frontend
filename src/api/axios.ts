@@ -1,7 +1,6 @@
 import axios, { AxiosError } from "axios";
 import store from "@/components/redux/store";
 import { logout } from "@/components/redux/reducers/authReducer";
-import { env } from "@/utils/env";
 
 // Define the environment
 const isProduction = import.meta.env.PROD;

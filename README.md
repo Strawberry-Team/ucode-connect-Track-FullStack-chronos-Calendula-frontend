@@ -1,25 +1,23 @@
 <div align="center">
    <p align="center">
       <a href="https://ucode.world/en/" target="_blank">
-         <img src="https://github.com/Strawberry-Team/ucode-connect-Track-FullStack-chronos-Calendula-frontend/blob/main/public/ucode_it_academy_logo.svg" height="100px" alt="ucode_logo">
+         <img src="./public/ucode_it_academy_logo.svg" height="100px" alt="ucode_logo">
       </a>
    </p>
 
-   <img src="public/logo_favicon.png" width="200" />
+   <img src="./public/logo_favicon.png" width="200" />
    <h1 align="center">Calendula</h1>
 
 <p align="center">
-	<img src="https://img.shields.io/badge/TypeScript-3178C6.svg?style=flat&logo=TypeScript&logoColor=white" alt="TypeScript">
-	<img src="https://img.shields.io/badge/React-61DAFB.svg?style=flat&logo=React&logoColor=black" alt="React">
-	<img src="https://img.shields.io/badge/Redux-764ABC.svg?style=flat&logo=Redux&logoColor=white" alt="Redux">
-	<img src="https://img.shields.io/badge/React_Router-CA4245.svg?style=flat&logo=React-Router&logoColor=white" alt="React Router">
-	<img src="https://img.shields.io/badge/Axios-5A29E4.svg?style=flat&logo=Axios&logoColor=white" alt="Axios">
-	<img src="https://img.shields.io/badge/JSON-000000.svg?style=flat&logo=JSON&logoColor=white" alt="JSON">
-	<img src="https://img.shields.io/badge/Vite-646CFF.svg?style=flat&logo=Vite&logoColor=white" alt="Vite">
-	<img src="https://img.shields.io/badge/FullCalendar-1E90FF.svg?style=flat&logo=FullCalendar&logoColor=white" alt="FullCalendar">
-	<img src="https://img.shields.io/badge/Shad/cn-000000.svg?style=flat" alt="ShadCN">
-	<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4.svg?style=flat&logo=tailwindcss&logoColor=white" alt="Tailwind CSS">
-	<img src="https://img.shields.io/badge/CSS-1572B6.svg?style=flat&logo=CSS3&logoColor=white" alt="CSS">
+	<img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+	<img src="https://img.shields.io/badge/React-61DAFB?logo=react&logoColor=black" alt="React" />
+	<img src="https://img.shields.io/badge/Redux-764ABC?logo=redux&logoColor=white" alt="Redux" />
+	<img src="https://img.shields.io/badge/React_Router-CA4245?logo=react-router&logoColor=white" alt="React Router" />
+	<img src="https://img.shields.io/badge/Axios-5A29E4?logo=axios&logoColor=white" alt="Axios" />
+	<img src="https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white" alt="Vite" />
+	<img src="https://img.shields.io/badge/FullCalendar-1E90FF" alt="FullCalendar" />
+	<img src="https://img.shields.io/badge/Shadcn-000000" alt="Shadcn" />
+	<img src="https://img.shields.io/badge/Tailwind_CSS-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 	<img src="https://img.shields.io/badge/ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
 	<img src="https://img.shields.io/badge/Framer_Motion-0055FF?logo=framer&logoColor=white" alt="Framer Motion" />
 </p>
@@ -37,10 +35,38 @@
 
 
 
-# 🗓️ Overview
-Calendula is an enterprise platform that transforms time management with flexible calendars, interactive events, and team sync.
+# 📑 Table of Contents
+- [🗓️ About "Calendula" App](#-about-calendula-app)
+- [🧑‍💻 Team](#-team)
+- [🌼 About "Calendula" Frontend](#-about-calendula-frontend)
+- [🎯 Features and Functionality](#-features-and-functionality)
+  - [🔐 Authentication & Authorization](#-authentication--authorization)
+  - [👥 User Management](#-user-management)
+  - [📅 Calendar Management](#-calendar-management)
+  - [📋 Event Management](#-event-management)
+  - [🎨 Visual Customization](#-visual-customization)
+  - [📱 User Interface & Experience](#-user-interface--experience)
+  - [🔔 Notifications & Reminders](#-notifications--reminders)
+  - [📊 Event Analytics & Display](#-event-analytics--display)
+  - [🛠 Technical Features](#-technical-features)
+  - [🎯 Advanced Functionality](#-advanced-functionality)
+- [👤 Use case diagram](#-use-case-diagram)
+- [🧲 Activity diagram](#-activity-diagram)
+- [🚚 Deployment Diagram](#-deployment-diagram)
+- [🚀 Get started](#-get-started)
+
+
+
+# 🗓️ About "Calendula" App
+**Calendula** is an enterprise web app that transforms time management with flexible calendars, interactive events, and team sync.
 
 Organise your day, share ideas, and streamline your workflow with easy search, notifications, and a personalised design.
+
+Here is a [link](https://docs.google.com/presentation/d/1UFsV7MbyVHJA5UCWVKEkgtV1f3Buq-kT/edit?usp=sharing) to the presentation file.</p>
+
+![Google Chrome 2025-06-20 21 23 42](https://github.com/user-attachments/assets/d72b1626-7664-4376-81e4-8b7686342eb9)
+![CleanShot 2025-04-04 at 22 24 50@2x](https://github.com/user-attachments/assets/af5899fb-ac8d-4152-ad79-d6b3a58a2fbd)
+![CleanShot 2025-04-04 at 22 22 42@2x](https://github.com/user-attachments/assets/f8c37dbe-48a0-4d73-ba2e-b2ca3f85d47c)
 
 
 
@@ -62,33 +88,31 @@ Organise your day, share ideas, and streamline your workflow with easy search, n
 ![CleanShot 2025-06-20 at 21 23 49](https://github.com/user-attachments/assets/f5f32cd2-bcec-4f07-8460-fc55e6649706)
 
 
-# 🌼 About "Calendula" calendar app
-Calendula is a calendar project inspired by Google Calendar. It is built using React and Tailwind and features a highly responsive and intuitive interface.
+# 🌼 About "Calendula" Frontend
+Calendula is a calendar project inspired by Google Calendar. It is built using React, TypeScript, and Tailwind CSS, featuring a highly responsive and intuitive interface.
 
-The Calendula project is designed for convenient task and event planning. It combines a minimalist design with robust functionality, allowing users to easily manage their time while also supporting customizable color themes.
+The Calendula project is designed for convenient task and event planning. It combines a minimalist design with robust functionality, allowing users to easily manage their time while also supporting customizable color themes. 
 
-Here is a [link](https://docs.google.com/presentation/d/1UFsV7MbyVHJA5UCWVKEkgtV1f3Buq-kT/edit?usp=sharing) to the presentation file.</p>
+The application provides comprehensive calendar management with multiple calendar types, event creation and editing, participant management, and advanced collaboration features.
 
-![Google Chrome 2025-06-20 21 23 42](https://github.com/user-attachments/assets/d72b1626-7664-4376-81e4-8b7686342eb9)
-![CleanShot 2025-04-04 at 22 24 50@2x](https://github.com/user-attachments/assets/af5899fb-ac8d-4152-ad79-d6b3a58a2fbd)
-![CleanShot 2025-04-04 at 22 22 42@2x](https://github.com/user-attachments/assets/f8c37dbe-48a0-4d73-ba2e-b2ca3f85d47c)
+Built with modern web technologies, Calendula delivers a seamless experience for both individual users and teams, offering features like drag-and-drop event scheduling, real-time notifications, and flexible role-based access control.
 
 
 
 # 🎯 Features and Functionality
-Calendula is a comprehensive calendar management application that provides the following features:
+**Calendula** is a comprehensive calendar management application that provides the following features:
 
 ### 🔐 Authentication & Authorization
 - User registration with email confirmation
-- Secure login system
+- Secure login system with JWT tokens
 - Password reset functionality with email verification
 - Email confirmation system for new accounts
 - Protected routes with authentication guards
-- Session management with JWT tokens
+- Session management with automatic token refresh
 
 ### 👥 User Management
-- User profile management with avatar support
-- Personal data viewing and editing
+- User profile with avatar support
+- Personal data viewing
 - Birthday tracking for user profiles
 - User search functionality by full name or email
 - Searchable dropdown lists for user participation
@@ -257,18 +281,24 @@ Calendula is a comprehensive calendar management application that provides the f
 
 # 🚀 Get started
 1. Run the [calendula-backend](https://github.com/Strawberry-Team/calendula-backend) project.
-2. Go to the project folder.
+2. Clone this repository and move to the project directory:
+   ```bash
+   git clone <repository-url> calendula-frontend
+   cd calendula-frontend
+   ```
 3. Install the dependencies:
-```sh
-  npm install
-```
+   ```sh
+   npm install
+   ```
 4. Run commands:
-```sh
-  npm run build
-```
-```sh
-  npm run dev
-```
+   ```sh
+   npm run build:dev
+   ```
+   ```sh
+   npm run start:dev
+   ```
+5. Application will be launched on [http://localhost:3000/](http://localhost:3000/).
 
+---
 
 © Inessa Repeshko. 2025

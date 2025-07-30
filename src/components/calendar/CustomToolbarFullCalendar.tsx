@@ -38,11 +38,13 @@ interface EventType {
     end: Date;
     allDay?: boolean;
     extendedProps?: {
-        description?: string;
-        calendarId: number;
         attendanceStatus?: "yes" | "no" | "maybe" | undefined;
+        calendarId?: number;
         color?: string;
         calendarColor?: string;
+        description?: string;
+        type?: string;
+        calendarType?: string;
     };
 }
 

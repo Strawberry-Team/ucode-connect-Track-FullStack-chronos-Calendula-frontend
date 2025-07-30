@@ -12,7 +12,7 @@ export const UiMessages = {
     LOGIN: {
         BUTTON: "Login",
         SIGN_UP_BUTTON: "Sign up",
-        TITLE: "Welcome back",
+        TITLE: "Login",
         DESCRIPTION: "Login to your account",
         FORGOT_PASSWORD: "Forgot your password?",
         DONT_ACCOUNT: "Don't have an account? ",
@@ -24,7 +24,7 @@ export const UiMessages = {
     REGISTER: {
         BUTTON: "Register",
         LOG_IN_BUTTON: "Log in",
-        TITLE: "Welcome back",
+        TITLE: "Registration",
         DESCRIPTION: "Register an account",
         ALREADY_ACCOUNT: "Already have an account? ",
         BIRTHDAY_INPUT_TITLE: "Birthday"

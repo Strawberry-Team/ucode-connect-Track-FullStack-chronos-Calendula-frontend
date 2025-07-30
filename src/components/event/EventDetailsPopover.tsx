@@ -178,6 +178,14 @@ export default function EventDetailsPopover({
         return `${minutes} minutes before`;
     };
 
+    // Define the environment
+    const isProduction = import.meta.env.PROD;
+
+    // Configure the API URL based on the environment
+    const BASE_AVATAR_URL = isProduction 
+        ? '/profile-pictures/' // For production, use relative path
+        : `${import.meta.env.VITE_API_BASE_URL}/profile-pictures/`; // For development
+
     return (
         <Popover open={true} onOpenChange={(open) => !open && onClose()}>
             <PopoverContent
@@ -370,7 +378,7 @@ export default function EventDetailsPopover({
                                 <div className="relative">
                                     <Avatar className="h-8 w-8 rounded-lg">
                                         <AvatarImage
-                                            src={`http://localhost:8080/profile-pictures/${event.creator.profilePicture}`}
+                                            src={`${BASE_AVATAR_URL}${event.creator.profilePicture}`}
                                             alt={event.creator.fullName}
                                         />
                                     </Avatar>
@@ -406,7 +414,7 @@ export default function EventDetailsPopover({
                                             <div className="relative">
                                                 <Avatar className="h-8 w-8 rounded-lg">
                                                     <AvatarImage
-                                                        src={`http://localhost:8080/profile-pictures/${participant.profilePicture}`}
+                                                        src={`${BASE_AVATAR_URL}${participant.profilePicture}`}
                                                         alt={participant.fullName}
                                                     />
                                                 </Avatar>

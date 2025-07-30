@@ -86,6 +86,14 @@ export function NavUser({
     }
   };
 
+  // Define the environment
+  const isProduction = import.meta.env.PROD;
+
+  // Configure the API URL based on the environment
+  const BASE_AVATAR_URL = isProduction 
+      ? '/profile-pictures/' // For production, use relative path
+      : `${import.meta.env.VITE_API_BASE_URL}/profile-pictures/`; // For development
+
   return (
       <SidebarMenu>
         <SidebarMenuItem>
@@ -97,7 +105,7 @@ export function NavUser({
               >
                 <Avatar className="h-10 w-10 rounded-lg">
                   <AvatarImage
-                      src={`http://localhost:8080/profile-pictures/${user.profilePicture}`}
+                      src={BASE_AVATAR_URL + user.profilePicture}
                       alt={user.fullName}
                   />
                 </Avatar>
@@ -117,7 +125,7 @@ export function NavUser({
                   <div className="flex items-center gap-2">
                     <Avatar className="h-8 w-8 rounded-lg">
                       <AvatarImage
-                          src={`http://localhost:8080/profile-pictures/${user.profilePicture}`}
+                          src={BASE_AVATAR_URL + user.profilePicture}
                           alt={user.fullName}
                       />
                       <AvatarFallback className="rounded-lg">CN</AvatarFallback>

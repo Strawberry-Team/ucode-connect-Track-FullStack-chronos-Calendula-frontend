@@ -74,6 +74,14 @@ const UserSelector = ({
         return 0;
     });
 
+    // Define the environment
+    const isProduction = import.meta.env.PROD;
+
+    // Configure the API URL based on the environment
+    const BASE_AVATAR_URL = isProduction 
+        ? '/profile-pictures/' // For production, use relative path
+        : `${import.meta.env.VITE_API_BASE_URL}/profile-pictures/`; // For development
+
     return (
         <div className="mt-1 border rounded-md p-3 h-46 relative">
             <div className="sticky top-0 bg-white z-10">
@@ -98,7 +106,7 @@ const UserSelector = ({
                                         <div className="relative">
                                             <Avatar className="h-8 w-8 rounded-lg">
                                                 <AvatarImage
-                                                    src={`http://localhost:8080/profile-pictures/${user.profilePicture}`}
+                                                    src={`${BASE_AVATAR_URL}${user.profilePicture}`}
                                                     alt={user.fullName}
                                                 />
                                             </Avatar>
@@ -131,7 +139,7 @@ const UserSelector = ({
                             <div className="relative">
                                 <Avatar className="h-8 w-8 rounded-lg">
                                     <AvatarImage
-                                        src={`http://localhost:8080/profile-pictures/${user.profilePicture}`}
+                                        src={`${BASE_AVATAR_URL}${user.profilePicture}`}
                                         alt={user.fullName}
                                     />
                                 </Avatar>

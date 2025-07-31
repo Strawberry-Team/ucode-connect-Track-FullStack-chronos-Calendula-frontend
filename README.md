@@ -26,7 +26,7 @@
       <p align="center">
          <sub><i>
             ucode connect chronos "Calendula" is the project of ucode connect the Track FullStack programming bootcamp<br />
-            lasting 4 weeks (March 31, 2025 - May 2, 2025),<br />where the Node.js with JavaScript and React with TypeScript and FullCalendar were used to develop the event planner web-application.<br /><br />
+            lasting 4 weeks (March 3, 2025 - March 28, 2025),<br />where the Node.js with JavaScript and React with TypeScript and FullCalendar were used to develop the event planner web-application.<br /><br />
             The purpose: build a simple and powerful time planner<br />using the whole cycle of Challenge Based Learning framework with a team.
          </i></sub>
       </p>
